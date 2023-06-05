@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { useMediaQuery } from '@vueuse/core'
-import { useScroll } from '@vueuse/core'
+// import { useScroll } from '@vueuse/core'
 
 const isLargeScreen = useMediaQuery('(min-width: 768px)')
 
-const el = ref<HTMLElement | null>(null)
-const { x, y, isScrolling, arrivedState, directions } = useScroll(el)
+// const el = ref<HTMLElement | null>(null)
+// const { x, y, isScrolling, arrivedState, directions } = useScroll(el)
 
 
 </script>
