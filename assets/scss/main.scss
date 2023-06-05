@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body{
+  background-color: var(--bg);
+  color: var(--color);
+}
+  
+.services-bg {
+  --bg: #68BB88;
+  --color: white;
+}
+
+.contact-bg {
+    --bg: #A58ABF;
+    --color: white;
+  }

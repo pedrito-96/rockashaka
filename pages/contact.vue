@@ -1,5 +1,7 @@
 <script setup lang="ts">
-
+definePageMeta({
+    layout:'other'
+})
 </script>
 
 <template>
@@ -7,5 +9,7 @@
 </template>
 
 <style scoped>
-
+body {
+  @apply bg-rockPurple;
+}
 </style>

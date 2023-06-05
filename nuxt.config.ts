@@ -10,6 +10,7 @@ export default defineNuxtConfig({
     "@vueuse/nuxt",
     "nuxt-lodash",
     "nuxt-svgo",
+    '@nuxtjs/color-mode',
 
   ],
   css: ["@/assets/scss/main.scss"],
