@@ -1,7 +1,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: "Martin's Nuxt Starter",
+      title: "RockAShaka",
     },
   },
   modules: [
@@ -9,6 +9,8 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
     "nuxt-lodash",
+    "nuxt-svgo",
+
   ],
   css: ["@/assets/scss/main.scss"],
   tailwindcss: {
@@ -19,5 +21,8 @@ export default defineNuxtConfig({
   lodash: {
     prefix: "_",
     upperAfterPrefix: false,
+  },
+  svgo: {
+    autoImportPath: './assets/'
   },
 });

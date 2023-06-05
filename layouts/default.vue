@@ -1,7 +1,6 @@
 <template>
-  <TheHeader class="top-0 fixed" />
-  <div class="flex justify-center items-center h-screen my-12">
+  <TheHeader class="" />
     <slot />
-  </div>
-  <TheFooter class="bottom-0 fixed" />
+
+  <TheFooter class="bottom-0 md:fixed" />
 </template>

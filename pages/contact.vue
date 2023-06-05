@@ -3,8 +3,7 @@
 </script>
 
 <template>
-<LogoRockAShaka></LogoRockAShaka>
-<HomeCats class=""></HomeCats>
+  This is the contact page
 </template>
 
 <style scoped>
