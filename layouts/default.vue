@@ -7,7 +7,7 @@
   
     <slot/>
     
-  <TheFooter class="bottom-0 fixed" />
+  <TheFooter class="bottom-0 md:fixed" />
 </template>
 
 <script setup lang="ts">
