@@ -76,7 +76,7 @@ const schemaDesign = [
     <div class="flex justify-center items-center flex-col">
   <FormKit
     type="form"
-    action="https://formsubmit.co/7bde4a9111ce65f6f71238d35e58905a"
+    action="https://api.web3forms.com/submit"
     method="POST"
     id="registration"
     :form-class="submitted ? 'hide' : 'show'"
@@ -85,7 +85,8 @@ const schemaDesign = [
     :actions="false"
   >
 
-  <input type="hidden" name="access_key" value="99274332-fdac-4d8a-91cc-a3fe2204689f">
+  <input type="hidden" name="access_key" value="027c5ca7-5310-48ff-80b7-5da5128750d9">
+  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
     <h1 class="text-3xl font-bold">CONTACT FORM</h1>
     <p>
@@ -187,7 +188,7 @@ const schemaDesign = [
      <h1 class="text-xl font-bold"> LOGOS &amp; PLACEMENT</h1>
      <br>
 
-<FormKitSchema :schema="schemaDesign" />
+<!-- <FormKitSchema :schema="schemaDesign" /> -->
 
 <FormKit
   type="checkbox"
@@ -207,7 +208,7 @@ const schemaDesign = [
 
     <FormKit
       type="submit"
-      label="Register"
+      label="Submit"
     />
 
   </FormKit>
