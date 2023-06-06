@@ -76,14 +76,13 @@ const schemaDesign = [
     <div class="flex justify-center items-center flex-col">
   <FormKit
     type="form"
-    action="https://formsubmit.co/stivanellop@yahoo.com"
+    action="https://formsubmit.co/7bde4a9111ce65f6f71238d35e58905a"
     method="POST"
     id="registration"
     :form-class="submitted ? 'hide' : 'show'"
     submit-label="Register"
     @submit="submitHandler"
     :actions="false"
-    #default="{ value }"
   >
 
   <input type="hidden" name="access_key" value="99274332-fdac-4d8a-91cc-a3fe2204689f">
