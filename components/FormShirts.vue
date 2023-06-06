@@ -76,7 +76,7 @@ const schemaDesign = [
     <div class="flex justify-center items-center flex-col">
   <FormKit
     type="form"
-    action="https://formsubmit.co/your@email.com"
+    action="https://formsubmit.co/stivanellop@yahoo.com"
     method="POST"
     id="registration"
     :form-class="submitted ? 'hide' : 'show'"
