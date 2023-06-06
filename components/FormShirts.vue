@@ -215,7 +215,7 @@ const schemaDesign = [
 
 
   <div v-if="submitted">
-    <h2 class="text-red-500">Submission successful!</h2>
+    <h2 class="text-red-500 text-center">Submission successful!</h2>
   </div>
 
 </template>
