@@ -76,8 +76,6 @@ const schemaDesign = [
     <div class="flex justify-center items-center flex-col">
   <FormKit
     type="form"
-    action="https://api.web3forms.com/submit"
-    method="POST"
     id="registration"
     :form-class="submitted ? 'hide' : 'show'"
     submit-label="Register"
@@ -85,8 +83,8 @@ const schemaDesign = [
     :actions="false"
   >
 
-  <input type="hidden" name="access_key" value="027c5ca7-5310-48ff-80b7-5da5128750d9">
-  <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+  <!-- <input type="hidden" name="access_key" value="027c5ca7-5310-48ff-80b7-5da5128750d9">
+  <input type="checkbox" name="botcheck" class="hidden" style="display: none;"> -->
 
     <h1 class="text-3xl font-bold">CONTACT FORM</h1>
     <p>
@@ -127,10 +125,7 @@ const schemaDesign = [
     type="tel"
     label="PHONE *"
     placeholder="xxx-xxx-xxxx"
-    validation="required|matches:/^[0-9]{3}-[0-9]{3}-[0-9]{4}$/"
-    :validation-messages="{
-    matches: 'Phone number must be in the format xxx-xxx-xxxx',
-    }"
+    validation="required"
     validation-visibility="dirty"
 />
 
@@ -188,7 +183,7 @@ const schemaDesign = [
      <h1 class="text-xl font-bold"> LOGOS &amp; PLACEMENT</h1>
      <br>
 
-<!-- <FormKitSchema :schema="schemaDesign" /> -->
+<FormKitSchema :schema="schemaDesign" />
 
 <FormKit
   type="checkbox"
@@ -204,7 +199,7 @@ const schemaDesign = [
   rows="10"
 />
 
-<input type="hidden" name="redirect" value="https://web3forms.com/success">
+<!-- <input type="hidden" name="redirect" value="https://web3forms.com/success"> -->
 
     <FormKit
       type="submit"

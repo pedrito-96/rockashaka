@@ -1,6 +1,5 @@
 <template>
-
-    <div class="flex justify-between items-center mt-5">
+    <div class="fixed flex justify-between items-center mt-5 bg-white w-screen">
       <LogoRAS v-if="!isLargeScreen" class=" fixed top-8 md:top-5 left-0 ml-[3%]"></LogoRAS>
       <TheHeader class="mr-[5%]" />
     </div>

@@ -1,8 +1,8 @@
 <template>
-  <div class="flex justify-between items-center mt-5 z-80" :class="{ 'navbar' : !isNavbarVisible}">
-    <LogoRAS class="fixed top-8 md:top-5 left-0 ml-[3%] fill-red-300"></LogoRAS>
-    <TheHeader class="mr-[5%] text-red-300 z-20"/>
-  </div> 
+    <div class="flex justify-between items-center mt-5 z-50 bg-white w-screen" :class="{ 'navbar' : !isNavbarVisible}">
+      <LogoRAS class="fixed top-8 md:top-5 left-0 ml-[3%] fill-red-300 z-50"></LogoRAS>
+      <TheHeader class="mr-[5%] text-red-300 z-50"/>
+    </div> 
 
       <slot/>
       
