@@ -8,14 +8,11 @@ definePageMeta({
 
 <template>
 <div class="mx-[10%]">
-    <ServicesCats class=""></ServicesCats>
+    <ServicesCats></ServicesCats>
 </div>
 
 </template>
 
 <style scoped>
-
- .page {
-@apply bg-rockGreen  }
 
 </style>

@@ -11,7 +11,5 @@ definePageMeta({
 </template>
 
 <style scoped>
-body {
-  @apply bg-rockPurple;
-}
+
 </style>
