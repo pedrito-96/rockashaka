@@ -5,11 +5,7 @@ definePageMeta({
 </script>
 
 <template>
-<div class="mt-64">
-  <FormShirts></FormShirts>
-</div>
+  <div class="mt-64">
+      <FormShirts></FormShirts>
+  </div>
 </template>
-
-<style scoped>
-
-</style>

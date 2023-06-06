@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+
 const submitted = ref(false)
 const submitHandler = async () => {
   // Let's pretend this is an ajax request:
@@ -72,12 +72,11 @@ const schemaDesign = [
 </script>
 
 <template>
-    <div class="flex justify-center">
 
+    <div class="flex justify-center items-center flex-col">
   <FormKit
     type="form"
-    netlify
-    action="https://api.web3forms.com/submit" 
+    action="https://formsubmit.co/your@email.com"
     method="POST"
     id="registration"
     :form-class="submitted ? 'hide' : 'show'"
@@ -188,26 +187,7 @@ const schemaDesign = [
      <br>
      <h1 class="text-xl font-bold"> LOGOS &amp; PLACEMENT</h1>
      <br>
-<!--      
-     <FormKit
-     type="radio"
-     label="DO YOU NEED OUR GRAPHIC TEAM TO DESIGN YOUR ARTWORK? *"
-     name="design"
-     :options="[
-         'YES',
-         'NO'
-         ]"
-         validation="required"
-         />
-         
-     <FormKit
-     type="file"
-     label="ARTWORK/LOGOS: ( NO SHIRT, HOODIE, ETC IN BACKGROUND)"
-     accept=".pdf,.doc,.docx,.png,.jpeg,.svg"
-     help="Select as many documents as you need."
-     multiple="true"
-/> -->
-     
+
 <FormKitSchema :schema="schemaDesign" />
 
 <FormKit
@@ -230,12 +210,14 @@ const schemaDesign = [
       type="submit"
       label="Register"
     />
-    <!-- <pre wrap>{{ value }}</pre> -->
+
   </FormKit>
-  <div v-if="submitted">
-    <h2>Submission successful!</h2>
-  </div>
 </div>
+
+
+  <div v-if="submitted">
+    <h2 class="text-red-500">Submission successful!</h2>
+  </div>
 
 </template>
 
