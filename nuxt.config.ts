@@ -3,7 +3,9 @@ export default defineNuxtConfig({
     head: {
       title: "RockAShaka",
     },
+  
   },
+  ssr: true,
   modules: [
     "vite-plugin-vue-type-imports/nuxt",
     "@nuxtjs/tailwindcss",
@@ -11,6 +13,8 @@ export default defineNuxtConfig({
     "nuxt-lodash",
     "nuxt-svgo",
     '@nuxtjs/color-mode',
+    '@formkit/nuxt',
+
 
   ],
   css: ["@/assets/scss/main.scss"],

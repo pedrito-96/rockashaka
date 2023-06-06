@@ -1,17 +1,20 @@
 <script setup lang="ts">
 import { useMediaQuery } from '@vueuse/core'
-// import { useScroll } from '@vueuse/core'
+import { gsap } from "gsap";
 
 const isLargeScreen = useMediaQuery('(min-width: 768px)')
 
 // const el = ref<HTMLElement | null>(null)
 // const { x, y, isScrolling, arrivedState, directions } = useScroll(el)
 // ref="el"
-
+// class="block w-[60%] mx-auto mt-[10%]"
 </script>
 <template>
-<div v-if="isLargeScreen" >
-    <svg class="block w-[60%] mx-auto mt-[10%]" viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
+<div v-if="isLargeScreen"     id="animate"
+>
+    <svg
+    class="z-30"
+    viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
         <g>
             <path d="M422.4,134.7c-18.6-59.2-81.5-100.4-101.9-88.2c-7.9,4.7-6.6,15.4-19.2,28c-23.2,23.2-52.9,47-26,73.9
             c12.6,12.6,17.3,12.2,28.6,23.5c18,18,10.8,29.3,24.3,36.2c25.5,10.4,41.1-6.3,61.1-12.7c16.3-3.5,23.1,4,30.3-0.1
@@ -49,4 +52,32 @@ const isLargeScreen = useMediaQuery('(min-width: 768px)')
 </template>
 
 <style scoped>
+
+#animate {
+  animation: move 2s ease-in-out forwards;
+  animation-delay: 2s;
+  /*filter: blur(1.5rem);*/
+}
+
+#animate::before{
+  content: '';
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: -10;
+}
+
+@keyframes move {
+  0%{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+  }
+  100% {
+     @apply fixed top-5 left-0 w-80
+  }
+}
 </style>

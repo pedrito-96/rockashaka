@@ -36,5 +36,9 @@
   "name": "my-nuxt-starter",
   "version": "0.0.0",
   "peerDependencies": {},
-  "dependencies": {}
+  "dependencies": {
+    "@formkit/nuxt": "^0.17.2",
+    "@formkit/themes": "^0.17.2",
+    "gsap": "^3.11.5"
+  }
 }

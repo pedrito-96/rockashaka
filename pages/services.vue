@@ -1,7 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
     layout:'other',
-    colorMode: 'services',
 })
 
 
@@ -15,9 +14,8 @@ definePageMeta({
 </template>
 
 <style scoped>
-.services body {
-    background-color: #68BB88;
-    color: white;
-  }
+
+ .page {
+@apply bg-rockGreen  }
 
 </style>

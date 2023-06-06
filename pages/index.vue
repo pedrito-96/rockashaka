@@ -4,7 +4,10 @@
 
 <template>
 <LogoRockAShaka></LogoRockAShaka>
+
 <HomeCats class="mb-32"></HomeCats>
+
+
 </template>
 
 <style scoped>

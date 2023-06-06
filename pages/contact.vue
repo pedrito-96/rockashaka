@@ -5,7 +5,9 @@ definePageMeta({
 </script>
 
 <template>
-  This is the contact page
+<div class="mt-64">
+  <FormShirts></FormShirts>
+</div>
 </template>
 
 <style scoped>
