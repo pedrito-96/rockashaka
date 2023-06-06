@@ -76,6 +76,7 @@ const schemaDesign = [
 
   <FormKit
     type="form"
+    netlify
     action="https://api.web3forms.com/submit" 
     method="POST"
     id="registration"
