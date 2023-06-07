@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { useMediaQuery } from '@vueuse/core'
-import { gsap } from "gsap";
+// import { gsap } from "gsap";
 
 const isLargeScreen = useMediaQuery('(min-width: 768px)')
 
