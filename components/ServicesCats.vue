@@ -3,7 +3,7 @@
         <h1 class="font-bold text-3xl text-center mt-64 mb-10 underline">SCREEN PRINTING</h1>
         <div class="grid md:grid-cols-3 justify-center items-center gap-12">
             <div>
-                <img class="w-[300px] m-auto" src="../assets/cats/cat_4.png">
+                <img class="w-[200px] md:[300px] m-auto" src="../assets/cats/cat_4.png">
             </div>
             <div class="text-center">
                 <p class="">
@@ -27,7 +27,7 @@
         <h1 class="font-bold text-3xl text-center mt-32 mb-10 underline">HEAT TRANSFER VYNIL</h1>
         <div class="grid md:grid-cols-3 justify-center items-center gap-12 mb-32">
             <div class="md:order-3">
-                <img class="w-[300px] m-auto" src="../assets/cats/cat_8.png">
+                <img class="h-[200px] md:h-[300px] m-auto" src="../assets/cats/cat_8.png">
             </div>
             <div class="text-center md:order-2">
                 <p class="">

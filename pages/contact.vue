@@ -1,6 +1,6 @@
 <script setup lang="ts">
 definePageMeta({
-    layout:'other'
+    layout:'hidden'
 })
 </script>
 

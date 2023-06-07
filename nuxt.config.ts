@@ -30,4 +30,9 @@ export default defineNuxtConfig({
   svgo: {
     autoImportPath: './assets/'
   },
+  build: {
+    transpile: [
+      "gsap"
+    ]
+   }
 });

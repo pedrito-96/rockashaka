@@ -12,7 +12,7 @@
     to="/contact"
     class="hover-underline-animation"
     >
-    CONTACT
+    GET A QUOTE
   </nuxt-link>
   <nuxt-link
   to="/about"

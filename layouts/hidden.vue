@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between items-center mt-5 z-50" :class="{ 'navbar' : !isNavbarVisible}">
+  <div class="flex justify-between items-center mt-5 z-50" :class="{ 'navbar' : isNavbarVisible}">
       <div class="container" :class="{'h-52': isLargeScreen}">
       <LogoRAS class="fixed top-8 md:top-5 left-0 ml-[3%] fill-red-300 z-50"></LogoRAS>
       <TheHeader class="mr-[5%] text-red-300 z-50"/>
@@ -24,9 +24,9 @@ onMounted(() => {
   window.addEventListener('scroll', updateScrollPosition);
 });
 
-watch(scrollPosition, (newValue, oldValue) => {
+watch(scrollPosition, (newValue) => {
   // Check the scroll direction
-  isNavbarVisible.value = newValue <= oldValue || newValue === 0;
+  isNavbarVisible.value = newValue > 0;
 });
 
 </script>

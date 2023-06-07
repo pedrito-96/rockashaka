@@ -218,8 +218,8 @@ const schemaDesign = [
 
 <style scoped>
 form {
-  width: 90%;
-  margin-right: 20px;
+  width: 85%;
+  margin-right: 30px;
   margin-left: 40px;
 }
 
