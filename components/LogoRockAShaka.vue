@@ -12,7 +12,7 @@ const isLargeScreen = useMediaQuery('(min-width: 768px)')
 <template>
 <div v-if="isLargeScreen">
     <svg
-    class="block w-[60%] mx-auto mt-[10%]"
+    class="block w-[60%] mx-auto mt-[15%]"
     viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
         <g>
             <path d="M422.4,134.7c-18.6-59.2-81.5-100.4-101.9-88.2c-7.9,4.7-6.6,15.4-19.2,28c-23.2,23.2-52.9,47-26,73.9
