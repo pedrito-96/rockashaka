@@ -13,7 +13,7 @@
   
   <script setup>
 const scrollPosition = ref(0);
-const isNavbarVisible = ref(true);
+const isNavbarVisible = ref(false);
 
 const updateScrollPosition = () => {
   scrollPosition.value = window.pageYOffset;
@@ -26,7 +26,7 @@ onMounted(() => {
 
 watch(scrollPosition, (newValue) => {
   // Check the scroll direction
-  isNavbarVisible.value = newValue > 0;
+  isNavbarVisible.value = newValue > 130;
 });
 
 </script>
@@ -40,7 +40,7 @@ watch(scrollPosition, (newValue) => {
 .navbar {
   transform: translateY(-250px);
   opacity: 0.1;
-  -webkit-transition: all 1.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;

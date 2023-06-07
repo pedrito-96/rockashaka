@@ -1,7 +1,7 @@
 <template>
   <div class="fixed right-0 top-10">
 
-    <header class="flex flex-col md:flex-row gap-2 md:gap-10 justify-end items-end w-full text-2xl">
+    <header class="flex flex-col md:flex-row gap-2 md:gap-8 justify-end items-end w-full text-xl md:text-2xl">
       <nuxt-link
       to="/services"
       class="hover-underline-animation"
