@@ -5,5 +5,5 @@ definePageMeta({
 </script>
 
 <template>
-  This is the about page
+GEGAONOENFAOEFNEOAIFNAOIMSAKD  DIOSAJDO IASJODMS
 </template>
