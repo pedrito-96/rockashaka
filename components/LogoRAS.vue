@@ -1,5 +1,4 @@
 <template>
-
     <NuxtLink to="/">
         <svg class="w-52 md:w-80" viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
             <g>
@@ -36,5 +35,5 @@
             </g>
         </svg>
     </NuxtLink>
-  
+    
 </template>

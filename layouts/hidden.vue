@@ -17,7 +17,7 @@ const isNavbarVisible = ref(false);
 
 const updateScrollPosition = () => {
   scrollPosition.value = window.pageYOffset;
-  console.log(scrollPosition)
+  // console.log(scrollPosition)
 };
 
 onMounted(() => {

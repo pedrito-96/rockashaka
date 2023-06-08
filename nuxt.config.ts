@@ -11,7 +11,6 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
     "nuxt-lodash",
-    "nuxt-svgo",
     '@nuxtjs/color-mode',
     '@formkit/nuxt',
 
@@ -26,9 +25,6 @@ export default defineNuxtConfig({
   lodash: {
     prefix: "_",
     upperAfterPrefix: false,
-  },
-  svgo: {
-    autoImportPath: './assets/'
   },
   build: {
     transpile: [

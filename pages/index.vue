@@ -30,15 +30,17 @@
 
 
 <template>
-<LogoRockAShaka></LogoRockAShaka>    
 
-<!-- <div ref="green" class=" w-32 h-32 bg-slate-500 mt-[1000px]">
-S
-</div> -->
+    <LogoRockAShaka></LogoRockAShaka>    
+    
+    <!-- <div ref="green" class=" w-32 h-32 bg-slate-500 mt-[1000px]">
+        S
+    </div> -->
+    
+    <div  class="w-screen h-fit">
+        <HomeCats></HomeCats>
+    </div>    
 
-<div  class="w-screen h-fit">
-    <HomeCats class="mb-32"></HomeCats>
-</div>    
 </template>
 
 <style scoped>

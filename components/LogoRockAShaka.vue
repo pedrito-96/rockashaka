@@ -1,16 +1,11 @@
 <script setup lang="ts">
 import { useMediaQuery } from '@vueuse/core'
-// import { gsap } from "gsap";
 
 const isLargeScreen = useMediaQuery('(min-width: 768px)')
 
-// const el = ref<HTMLElement | null>(null)
-// const { x, y, isScrolling, arrivedState, directions } = useScroll(el)
-// ref="el"
-// class="block w-[60%] mx-auto mt-[10%]"
 </script>
 <template>
-<div v-if="isLargeScreen">
+<div v-show="isLargeScreen">
     <svg
     class="block w-[60%] mx-auto mt-[15%]"
     viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
