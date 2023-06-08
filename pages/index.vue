@@ -44,17 +44,19 @@
 
 
 <template>
+<div class="index">
 
     <LogoRockAShaka></LogoRockAShaka>    
     
     <!-- <div ref="green" class=" w-32 h-32 bg-slate-500 mt-[1000px]">
         S
     </div>
-     -->
+-->
     <div  class="w-screen h-fit">
-        <HomeCats></HomeCats>
+    <HomeCats></HomeCats>
     </div>    
 
+</div>
 </template>
 
 <style scoped>
