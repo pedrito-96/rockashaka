@@ -1,13 +1,56 @@
 <script setup lang="ts">
 import { useMediaQuery } from '@vueuse/core'
+import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
 const isLargeScreen = useMediaQuery('(min-width: 768px)')
+// class="block w-[60%] mx-auto mt-[15%]"
+
+const logoAnimation = ref(null);
+let g: gsap.core.Tween;
+
+if (process.client) {
+gsap.registerPlugin(ScrollTrigger);
+}
+
+onMounted(() => {
+//   g = gsap.to(green.value, {
+//     scrollTrigger: {
+//       trigger: green.value,
+//       start: "top 170px",
+//       end: "top top",
+//       toggleActions: "restart null null null",
+//       markers: true,
+//     },
+//     opacity: 0.1,
+//     y: -100,
+//     duration: 5,
+//   });
+  g = gsap.to(logoAnimation.value, {
+    scrollTrigger: {
+      trigger: logoAnimation.value,
+      start: "top 10px",
+      end: "top top",
+      toggleActions: "restart null null null",
+      markers: true,
+    },
+      x: -1000, 
+      y: -1000,
+      duration: 2,
+  });
+    //   gsap.to(green.value, {rotation: 360, x:500, duration: 10,});
+})
+
+onUnmounted(() => {
+g.revert();
+});
 
 </script>
 <template>
-<div v-show="isLargeScreen">
+<div v-show="isLargeScreen" >
     <svg
-    class="block w-[60%] mx-auto mt-[15%]"
+    id="animate"
+    class="imgcent"
     viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
         <g>
             <path d="M422.4,134.7c-18.6-59.2-81.5-100.4-101.9-88.2c-7.9,4.7-6.6,15.4-19.2,28c-23.2,23.2-52.9,47-26,73.9
@@ -50,9 +93,11 @@ const isLargeScreen = useMediaQuery('(min-width: 768px)')
 #animate {
   animation: move 2s ease-in-out forwards;
   animation-delay: 2s;
+  z-index: 50;
   /*filter: blur(1.5rem);*/
 }
 
+/*
 #animate::before{
   content: '';
   position: fixed;
@@ -61,17 +106,33 @@ const isLargeScreen = useMediaQuery('(min-width: 768px)')
   background-color: white;
   z-index: -10;
 }
+*/
 
 @keyframes move {
   0%{
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 60%;
-  }
+    -webkit-transform: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
+  filter: blur(2px);
+
+}
+70%{
+  -webkit-transform: translateY(-1000px) translateX(-1000px);
+  transform: translateY(-1000px) translateX(-1000px);
+  filter: blur(50px);
+
+}
+
   100% {
-     @apply fixed top-5 left-0 w-80
+     @apply fixed top-5 left-0 right-0 bottom-0 w-80 m-0
   }
+}
+
+
+.imgcent {
+  max-width:60%;
+  max-height:100%;
+  position:absolute;
+  top:0; left:0; right:0; bottom:0;
+  margin:auto;
 }
 </style>
