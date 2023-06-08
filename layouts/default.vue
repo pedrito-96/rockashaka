@@ -31,7 +31,7 @@ const isLargeScreen = useMediaQuery('(min-width: 768px)')
 }
 
 .footer{
-  @apply h-32 w-screen fixed bottom-0 left-0 bg-white z-40 mr-0;
+  @apply h-36 md:h-32 w-screen fixed bottom-0 left-0 bg-white z-40 mr-0;
  background: linear-gradient(to top, rgba(255,255,255,1) 30%, rgba(255,255,255,0.5), rgba(255, 255, 255, 0.000));
 }
 

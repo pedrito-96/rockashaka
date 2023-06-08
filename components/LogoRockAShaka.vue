@@ -14,31 +14,25 @@ gsap.registerPlugin(ScrollTrigger);
 }
 
 onMounted(() => {
-//   g = gsap.to(green.value, {
-//     scrollTrigger: {
-//       trigger: green.value,
-//       start: "top 170px",
-//       end: "top top",
-//       toggleActions: "restart null null null",
-//       markers: true,
-//     },
-//     opacity: 0.1,
-//     y: -100,
-//     duration: 5,
-//   });
+
   g = gsap.to(logoAnimation.value, {
     scrollTrigger: {
       trigger: logoAnimation.value,
-      start: "top 10px",
+      start: "top 90px",
       end: "top top",
-      toggleActions: "restart null null null",
+      toggleActions: "play null null reverse",
       markers: true,
     },
-      x: -1000, 
-      y: -1000,
-      duration: 2,
+    position: 'fixed',
+    top: 0,
+    left: '3%',
+    right: 0,
+    bottom: 0,
+    width: '20rem',
+    margin: 0,
+    zIndex: '90',
+    duration: 1,
   });
-    //   gsap.to(green.value, {rotation: 360, x:500, duration: 10,});
 })
 
 onUnmounted(() => {
@@ -47,10 +41,10 @@ g.revert();
 
 </script>
 <template>
-<div v-show="isLargeScreen" >
+<div v-show="isLargeScreen" id="smoothContent">
     <svg
-    id="animate"
-    class="imgcent"
+    ref="logoAnimation"
+    class="imgcent z-50"
     viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
         <g>
             <path d="M422.4,134.7c-18.6-59.2-81.5-100.4-101.9-88.2c-7.9,4.7-6.6,15.4-19.2,28c-23.2,23.2-52.9,47-26,73.9
