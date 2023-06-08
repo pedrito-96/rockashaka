@@ -48,13 +48,14 @@ g.revert();
 </script>
 
 <template>
+<div class="flex flex-col justify-center items-center">
 
     <div ref="catAnimation" class="grid md:grid-cols-2 mt-[65vh] md:mt-[100vh] mb-32 content-center items-center justify-items-center mx-[10%] gap-y-10">
         <img src="../assets/cats/cat_1.png" class="w-36 md:w-52 md:order-2"/>
         <h1 class="font-bold justify-self-center text-xl md:text-2xl text-center">Your design, your style, <br/> wherever you need it <br/> at an affordable price!</h1>
     </div>
-
-
+    
+    
     <div ref="cat2Animation" class="grid md:grid-cols-2 mt-10 md:mt-[40vh] content-center items-center justify-items-center mx-[10%] gap-y-10">
         <img src="../assets/cats/cat_10.png" class="w-36 md:w-56"/>
         <div>
@@ -62,5 +63,6 @@ g.revert();
             <p class="justify-self-center text-xl md:text-2xl text-center">Screen Printing &amp; <br/> Heat transfer Vinyl</p>
         </div>
     </div>
+</div>
 
 </template>
