@@ -49,7 +49,7 @@ g.revert();
 
 <template>
 
-    <div ref="catAnimation" class="grid md:grid-cols-2 mt-[60vh] md:mt-[100vh] mb-32 content-center items-center justify-items-center mx-[10%] gap-y-10">
+    <div ref="catAnimation" class="grid md:grid-cols-2 mt-[65vh] md:mt-[100vh] mb-32 content-center items-center justify-items-center mx-[10%] gap-y-10">
         <img src="../assets/cats/cat_1.png" class="w-52 md:order-2"/>
         <h1 class="font-bold justify-self-center text-2xl text-center">Your design, your style, <br/> wherever you need it <br/> at an affordable price!</h1>
     </div>
