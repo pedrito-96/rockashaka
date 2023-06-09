@@ -7,7 +7,10 @@ module.exports = {
     extend: {
       colors: {
         'rockGreen': '#68BB88',
-        'rockPurple': '#A58ABF',
+        'rockPurple': '#A489BE',
+        'rockbg': '#FAFAEC',
+        'rockblack': '#3A3A3A',
+        'rockMossGreen': '#918868'
       },
     },
   },

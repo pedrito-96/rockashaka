@@ -1,17 +1,22 @@
 <template>
   <div class="flex justify-between items-center mt-5 z-50" :class="{ 'navbar' : isNavbarVisible}">
-      <div class="container">
-      <LogoRAS class="fixed top-2 md:top-5 left-0 ml-[3%] fill-red-300 z-50"></LogoRAS>
+      <div class="">
+      <LogoRAS     :style="{ 'fill': dynamicBgColor + ' !important' }"
+      class="fixed top-2 md:top-5 left-0 ml-[3%] fill-red-300 z-50"></LogoRAS>
       <TheHeader class="mr-[5%] text-red-300 z-50"/>
     </div> 
     </div> 
 
-      <slot/>
-      
-    <TheFooter class="bottom-0 text-red-300 bg-black" />
+    <slot />
+
+        <TheFooter class="bottom-0" :style="{ 'color': dynamicBgColor + ' !important' }" />
+
   </template>
   
   <script setup>
+import { usePageBgColor } from "~/composables/usePageBgColor";
+const { dynamicBgColor } = usePageBgColor();
+
 const scrollPosition = ref(0);
 const isNavbarVisible = ref(false);
 
@@ -47,8 +52,15 @@ watch(scrollPosition, (newValue) => {
   transition: all 0.5s ease-in-out;
 }
 
-.container {
-  @apply h-48 w-screen bg-white fixed top-0 left-0;
-  background: linear-gradient(#ffffff 30%, #ffffffbc 60%, #ffffffbc 80%, #ffffff00 100%);
+/*
+.bg-footer {
+  background-color: azure;
+  background-image: url(../assets/footer.svg);
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+  width: 100%;
+  height: 400px;
 }
+*/
+
 </style>

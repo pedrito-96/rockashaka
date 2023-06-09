@@ -6,8 +6,9 @@
     </div>
     </div>
   
-    <slot/>
-  <div class="footer">
+    <slot />
+
+    <div class="">
     <TheFooter class="bottom-0 md:fixed" />
   </div>
 </template>
