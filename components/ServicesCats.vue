@@ -7,8 +7,10 @@
             </div>
             <div class="text-center">
                 <p class="">
-                    The best and most common way to print custom designs/logos onto all types of apparel is through screen printing.
-                    This method uses photo emulsion to coat a mesh screen which when placed in sunlight temporarily burns the image into the screen to then be pressed in one or many colors depending on the design!
+                    The best and most common way to print custom designs/logos onto all types of apparel is through screen printing.  
+                    Screen printing, also known as silk screening, is a printing technique that involves transferring ink onto a substrate (such as paper, fabric, plastic, glass, or metal) through a stencil-like mesh screen. 
+                    It is a versatile and widely used method for creating high-quality prints on various materials. Screen printing is popular due to its ability to produce vibrant, opaque, and long-lasting prints. 
+                    With screen printing higher product quantities will have a cheaper individual price.
                 </p>
             </div>
             <div class="text-center md:text-right">
@@ -31,8 +33,12 @@
             </div>
             <div class="text-center md:order-2">
                 <p class="">
-                    For athletic-based apparel and simple full graphic designs, heat transfer vinyl is where it's at!
-                    HVT is one of the most affordable and durable ways of posting your design on any form of apparel, and can be used on practically any type of fabric blend!
+                    Heat vinyl transfer (HTV) is a popular technique used to apply custom designs, logos, or lettering onto various surfaces, 
+                    primarily fabrics, using heat and pressure. It involves cutting out a design from a sheet of heat transfer vinyl using a cutting machine. 
+                    The excess vinyl is removed, leaving only the desired design on a carrier sheet. 
+                    The design is then placed onto the fabric or surface and heat is applied using a heat press. 
+                    The heat causes the adhesive on the vinyl to bond with the surface, creating a permanent and vibrant transfer. 
+                    HTV is commonly used for customizing apparel when the design is different for each piece, for example team apparel with numbers and names.
                 </p>
             </div>
             

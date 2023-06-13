@@ -1,7 +1,7 @@
 <template>
 
         <div class="flex justify-center">
-            <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col justify-center items-baseline border-2 border-rockMossGreen p-8 rounded-xl form-bg">
+            <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col justify-center items-baseline border-2 border-black p-8 rounded-xl form-bg">
                 
                 <input type="hidden" name="access_key" value="027c5ca7-5310-48ff-80b7-5da5128750d9">
                 
@@ -14,7 +14,7 @@
                 <p>MESSAGE</p>
                 <textarea label="Message" name="message" rows="8"  placeholder="Enter your message" required></textarea>
                 <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                <button type="submit" class="rounded bg-rockPurple text-white p-2 self-end" >Submit Form</button>
+                <button type="submit" class="rounded border-2 border-black bg-rockPurple text-white p-2 self-end" >Submit Form</button>
                 
             </form>
         </div>
@@ -32,14 +32,18 @@ input, textarea {
     border-radius: 4px;
     width: 300px;
   }
-
+::placeholder{
+  padding-left: .5rem
+}
   p {
-    @apply text-xl font-bold
+    @apply text-xl font-bold text-rockGreen;
+    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
+    1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
   }
 
   .form-bg{
     /*background-image: url('https://us.123rf.com/450wm/juristka/juristka1610/juristka161000020/66761234-a-mano-ornamento-modello-per-la-carta-da-parati-cartolina-o-un-libro-da-colorare-per-adulti.jpg?ver=6');*/
-    @apply bg-rockGreen;
+    @apply bg-rockMossGreen;
     background-size: cover;
 }
 </style>
