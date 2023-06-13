@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="font-bold text-3xl text-center mt-64 mb-10 underline">SCREEN PRINTING</h1>
+        <h1 class="font-bold text-3xl text-center mt-56 mb-10 underline">SCREEN PRINTING</h1>
         <div class="grid md:grid-cols-3 justify-center items-center gap-12">
             <div>
                 <img class="w-[200px] md:[300px] m-auto" src="../assets/cats/cat_4.png">
