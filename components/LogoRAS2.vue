@@ -1,6 +1,6 @@
 <template>
     <NuxtLink to="/">
-      <svg class="w-64 md:w-80" viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
+      <svg class="w-52 md:w-80" viewBox="0 0 784 492" preserveAspectRatio="xMidYMid meet">
         <g>
             <path d="M422.4,134.7c-18.6-59.2-81.5-100.4-101.9-88.2c-7.9,4.7-6.6,15.4-19.2,28c-23.2,23.2-52.9,47-26,73.9
             c12.6,12.6,17.3,12.2,28.6,23.5c18,18,10.8,29.3,24.3,36.2c25.5,10.4,41.1-6.3,61.1-12.7c16.3-3.5,23.1,4,30.3-0.1

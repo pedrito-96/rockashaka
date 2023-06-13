@@ -1,7 +1,7 @@
 <template>
   <div class="container">
   <div class="flex justify-between items-center mt-0 box">
-      <LogoRAS v-show="!isLargeScreen" class="fixed top-2 md:top-5 left-0 ml-[3%]"></LogoRAS>
+      <LogoRAS v-show="!isLargeScreen" class="fixed top-4 md:top-5 left-0 ml-[7%]"></LogoRAS>
       <TheHeader class="mr-[5%] z-50" />
     </div>
     </div>
