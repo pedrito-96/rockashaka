@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1 class="font-bold text-3xl text-center mt-56 mb-10 underline">SCREEN PRINTING</h1>
+        <h1 class="font-bold text-3xl text-center mt-56 mb-10 underline text-rockPurple">SCREEN PRINTING</h1>
         <div class="grid md:grid-cols-3 justify-center items-center gap-12">
             <div>
                 <img class="w-[200px] md:[300px] m-auto" src="../assets/cats/cat_4.png">
@@ -14,7 +14,7 @@
                 </p>
             </div>
             <div class="text-center md:text-right">
-            <h2 class="font-bold text-xl">PRICING</h2>
+            <h2 class="font-bold text-xl text-rockPurple">PRICING</h2>
             <p class="">
               Setup cost: $50.0<br>
               1 Color design: $3.03<br>
@@ -26,7 +26,7 @@
         </div>
 
 
-        <h1 class="font-bold text-3xl text-center mt-32 mb-10 underline">HEAT TRANSFER VYNIL</h1>
+        <h1 class="font-bold text-3xl text-center mt-32 mb-10 underline text-rockPurple">HEAT TRANSFER VYNIL</h1>
         <div class="grid md:grid-cols-3 justify-center items-center gap-12 mb-32">
             <div class="md:order-3">
                 <img class="h-[200px] md:h-[300px] m-auto" src="../assets/cats/cat_8.png">
@@ -43,7 +43,7 @@
             </div>
             
             <div class="text-center md:text-left">
-                <h2 class="font-bold text-xl">PRICING</h2>
+                <h2 class="font-bold text-xl text-rockPurple">PRICING</h2>
                 <p>
                     1 Color design: $0.39 /per sheet<br>
                     Setup cost: $39.99 /per sheet<br>

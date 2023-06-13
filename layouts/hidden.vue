@@ -1,8 +1,8 @@
 <template>
   <div class="flex justify-between items-center mt-5 z-50" :class="{ 'navbar' : isNavbarVisible}">
       <div class="">
-      <LogoRAS     :style="{ 'fill': dynamicBgColor + ' !important' }"
-      class="fixed top-2 md:top-5 left-0 ml-[3%] fill-red-300 z-50"></LogoRAS>
+      <LogoRAS2 :style="{ 'fill': dynamicBgColor + ' !important' }"
+      class="fixed top-2 md:top-5 left-0 ml-[3%] fill-red-300 z-50"></LogoRAS2>
       <TheHeader class="mr-[5%] text-red-300 z-50"/>
     </div> 
     </div> 
