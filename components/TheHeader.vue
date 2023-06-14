@@ -18,7 +18,7 @@
   to="/about"
   class="hover-underline-animation text-rockMossGreen"
   >
-  ABOUT
+  OUR STORY
 </nuxt-link>
 </header>
 </div>

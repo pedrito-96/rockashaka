@@ -47,4 +47,18 @@ const isLargeScreen = useMediaQuery('(min-width: 768px)')
         max-width: 100vw;
     }
   }
+
+/*
+element.style {
+  border: none;
+  background: transparent;
+  color: white;
+  padding: 0;
+  outline: none !IMPORTANT;
+  border-bottom: 1px solid white;
+  border-radius: 0;
+  padding-bottom: 4px;
+  font-size: 1.25rem;
+}
+  */
 </style>

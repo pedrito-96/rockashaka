@@ -8,8 +8,9 @@
     </div> 
 
     <slot />
-
-        <TheFooter class="bottom-0" :style="{ 'color': dynamicBgColor + ' !important' }" />
+<div class="relative h-32 w-full">
+  <TheFooter class=" absolute bottom-0" :style="{ 'color': dynamicBgColor + ' !important' }" />
+</div>
 
   </template>
   

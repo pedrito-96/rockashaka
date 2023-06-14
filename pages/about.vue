@@ -5,5 +5,6 @@ definePageMeta({
 </script>
 
 <template>
-<h1 class="mt-64 text-3xl font-bold text-center">ABOUT</h1>
+<h1 class="mt-64 text-4xl font-bold text-center text-rockMossGreen">OUR STORY</h1>
+<OurStory class="mt-24"></OurStory>
 </template>
