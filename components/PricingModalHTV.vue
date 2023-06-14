@@ -45,7 +45,7 @@
                   SCREEN PRINTING PRICING:
                 </DialogTitle> -->
                 <div class="mt-2">
-                  <img src="../assets/HTVpricing table rocka.png" alt="htv pricing" class="">
+                  <img src="../assets/HTVpricingtable.png" alt="htv pricing" class="">
                 </div>
   
                 <div class="mt-4">
