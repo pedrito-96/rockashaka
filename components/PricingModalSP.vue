@@ -1,5 +1,5 @@
 <template>
-    <div class="">
+    <div class="motion-safe:animate-bounce ">
       <button
         type="button"
         @click="openModal"

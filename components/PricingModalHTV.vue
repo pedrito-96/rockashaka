@@ -1,11 +1,11 @@
 <template>
-    <div class="">
+    <div class="animate-bounce">
       <button
         type="button"
         @click="openModal"
         class="rounded-md bg-rockPurple px-4 py-2 text-sm font-medium text-white hover:bg-opacity-70 focus:outline-none focus-visible:ring-2 focus-visible:ring-rockGreen focus-visible:ring-opacity-75"
       >
-       HTV PRICING
+          HTV PRICING
       </button>
     </div>
     <TransitionRoot appear :show="isOpen" as="template">
