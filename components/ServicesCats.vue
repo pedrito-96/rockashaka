@@ -14,14 +14,15 @@
                 </p>
             </div>
             <div class="text-center md:text-right">
-            <h2 class="font-bold text-xl text-rockPurple">PRICING</h2>
+            <!-- <h2 class="font-bold text-xl text-rockPurple">PRICING</h2>
             <p class="">
               Setup cost: $50.0<br>
               1 Color design: $3.03<br>
               2 Color design: $3.70<br>
               3 Color design: $4.48<br>
               4 Color design: $5.05
-            </p>
+            </p> -->
+            <PricingModalSP printingtype="screen printing" filename="SPpricingtable.png"></PricingModalSP>
           </div>
         </div>
 
@@ -43,7 +44,7 @@
             </div>
             
             <div class="text-center md:text-left">
-                <h2 class="font-bold text-xl text-rockPurple">PRICING</h2>
+                <!-- <h2 class="font-bold text-xl text-rockPurple">PRICING</h2>
                 <p>
                     1 Color design: $0.39 /per sheet<br>
                     Setup cost: $39.99 /per sheet<br>
@@ -53,7 +54,9 @@
                     <hr class="w-[90%] m-auto"/>
                     3 Color design: $3.39 /per sheet<br>
                     Setup cost: $109.99 /per sheet
-                  </p>
+                  </p> -->
+                  <PricingModalHTV type="htv" filename="HTVpricingtable.png"></PricingModalHTV>
+
               </div>
         </div>
     </div>

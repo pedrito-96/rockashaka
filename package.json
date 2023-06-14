@@ -38,6 +38,7 @@
   "dependencies": {
     "@formkit/nuxt": "^0.17.2",
     "@formkit/themes": "^0.17.2",
+    "@headlessui/vue": "^1.7.14",
     "gsap": "^3.11.5"
   }
 }
