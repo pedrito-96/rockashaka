@@ -1,15 +1,11 @@
 <template>
-    <div class="mx-[5%]">
+    <div class="mx-[5%] md:mx-[10%]">
 
 <p>
-    Started by a handful of Florida Southern College students, with the hopes of helping sororities, fraternities, clubs, organizations, and local sports teams of all sizes; Rocka Shaka Tee Company took shape first in the summer of 2022 in Lakeland Florida after translating some personal designs into wearable artwork.
-</p>
+    Rocka Shaka Tee Company originated in the summer of 2022 in Lakeland, Florida, when a group of Florida Southern College students set out to assist sororities, fraternities, clubs, organizations, and local sports teams of all sizes. Starting with their own designs, they transformed them into wearable artwork using Heat Transfer Vinyl and screen printing techniques.</p>
 <p>
-    After customizing some of our own apparel first with Heat Transfer Vinyl and then using the screen printing method, we began to learn and perfect the process to best transpose personal designs onto all types of t-shirts, polos, and other personal apparel.
-</p>
-<p>
-    We continued practicing this process once we heard from fellow college students how they might not be able to order their organization's annual Fall custom shirts and quickly sought out to help find an affordable solution!
-</p>
+    Through experimentation and refinement, they mastered the art of transferring personal designs onto various types of apparel, including t-shirts, polos, and more. Upon learning that fellow college students were struggling to order custom shirts for their organizations' annual Fall events, they swiftly took action to provide an affordable solution.</p>
+
     </div>
 </template>
 

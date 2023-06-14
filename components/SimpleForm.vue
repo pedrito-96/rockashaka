@@ -3,7 +3,7 @@
         <div class="flex justify-center">
             <form action="https://api.web3forms.com/submit" method="POST" class="flex flex-col justify-center items-baseline border-2 border-black p-6 rounded-xl form-bg">
                 
-                <input type="hidden" name="access_key" value="027c5ca7-5310-48ff-80b7-5da5128750d9">
+                <input type="hidden" name="access_key" value="20407160-f9a4-4585-8713-3c8ae4c7e749">
                 
                 <p class="self-start">NAME</p>
                 <input label="NAME" type="text" name="name" placeholder="Your name" required>
