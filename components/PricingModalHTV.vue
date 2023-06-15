@@ -48,14 +48,18 @@
                   <img src="../assets/HTVpricingtable.png" alt="htv pricing" class="">
                 </div>
   
+                <NuxtLink to="/contact" class="">
+                  <h1 class="text-rockGreen text-center text-xl font-bold py-1 bg-rockPurple rounded-xl hover:bg-rockGreen hover:text-rockPurple">GET A QUOTE</h1>
+                </NuxtLink>
+
                 <div class="mt-4">
                   <button
-                    type="button"
-                    class="inline-flex justify-center rounded-md border border-transparent bg-rockPurple px-4 py-2 text-sm font-medium text-white hover:bg-rockGreen focus:outline-none focus-visible:ring-2 focus-visible:ring-rockGreen focus-visible:ring-offset-2"
-                    @click="closeModal"
-                  >
-                    Got it, thanks!
-                  </button>
+                  type="button"
+                  class="absolute top-[-2px] right-[-3px] inline-flex justify-center rounded-bl-lg border border-transparent bg-rockPurple px-4 py-2 text-sm font-medium text-white hover:bg-rockGreen focus:outline-none focus-visible:ring-2 focus-visible:ring-rockGreen focus-visible:ring-offset-2"
+                  @click="closeModal"
+                >
+                <span class="text-xl">x</span>
+              </button>
                 </div>
               </DialogPanel>
             </TransitionChild>
