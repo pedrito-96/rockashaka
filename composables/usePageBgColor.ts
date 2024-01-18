@@ -5,29 +5,24 @@ export function usePageBgColor() {
   const dynamicBgColor = computed(() => {
     const { path } = useRoute();
 
-    console.log(path);
+    // console.log(path);
     switch (path) {
-        case "/":
-
-            return "#3A3A3A";
-            break;
-          case "/about":
-
-            return "#918868";
-            break;
-          case "/contact":
-
-            return "#68BB88";
-            break;
-          case "/services":
-
-            return "#A489BE";
-          default:
-
-            return "#3A3A3A";
-            break;
-        }
-      });
+      case "/":
+        return "#3A3A3A";
+        break;
+      case "/about":
+        return "#918868";
+        break;
+      case "/contact":
+        return "#68BB88";
+        break;
+      case "/services":
+        return "#A489BE";
+      default:
+        return "#3A3A3A";
+        break;
+    }
+  });
 
   return { dynamicBgColor };
 }

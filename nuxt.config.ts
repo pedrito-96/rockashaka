@@ -3,18 +3,24 @@ export default defineNuxtConfig({
     head: {
       title: "RockAShaka",
     },
-  
   },
   ssr: true,
+  supabase: {
+    redirectOptions: {
+      login: "/login",
+      callback: "/",
+      exclude: ["/", "/services", "/about", "/contact"],
+    },
+  },
   modules: [
     "vite-plugin-vue-type-imports/nuxt",
     "@nuxtjs/tailwindcss",
     "@vueuse/nuxt",
     "nuxt-lodash",
-    '@nuxtjs/color-mode',
-    '@formkit/nuxt',
-
-
+    "@nuxtjs/color-mode",
+    "@formkit/nuxt",
+    "@nuxtjs/supabase",
+    "nuxt-icons",
   ],
   css: ["@/assets/scss/main.scss"],
   tailwindcss: {
@@ -27,8 +33,6 @@ export default defineNuxtConfig({
     upperAfterPrefix: false,
   },
   build: {
-    transpile: [
-      "gsap"
-    ]
-   }
+    transpile: ["gsap"],
+  },
 });

@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@nuxtjs/color-mode": "^3.2.0",
+    "@nuxtjs/supabase": "^1.1.5",
     "@nuxtjs/tailwindcss": "^6.6.7",
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.7",
@@ -34,11 +35,11 @@
   },
   "name": "my-nuxt-starter",
   "version": "0.0.0",
-  "peerDependencies": {},
   "dependencies": {
     "@formkit/nuxt": "^0.17.2",
     "@formkit/themes": "^0.17.2",
     "@headlessui/vue": "^1.7.14",
-    "gsap": "^3.11.5"
+    "gsap": "^3.11.5",
+    "nuxt-icons": "^3.2.1"
   }
 }

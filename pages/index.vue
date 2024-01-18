@@ -30,8 +30,8 @@
 //       toggleActions: "restart null null null",
 //       markers: true,
 //     },
-//       rotation: 360, 
-//       x:500, 
+//       rotation: 360,
+//       x:500,
 //       duration: 10,
 //   });
 //     //   gsap.to(green.value, {rotation: 360, x:500, duration: 10,});
@@ -41,24 +41,18 @@
 // g.revert();
 // });
 </script>
-
-
 <template>
-<div class="index">
+  <div class="index">
+    <LogoRockAShaka></LogoRockAShaka>
 
-    <LogoRockAShaka></LogoRockAShaka>    
-    
     <!-- <div ref="green" class=" w-32 h-32 bg-slate-500 mt-[1000px]">
         S
     </div>
 -->
-    <div  class="w-screen h-fit">
-    <HomeCats></HomeCats>
-    </div>    
-
-</div>
+    <div class="w-screen h-fit">
+      <HomeCats></HomeCats>
+    </div>
+  </div>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
