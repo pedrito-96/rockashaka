@@ -11,9 +11,8 @@
     "storybook-serve": "npx http-server ./storybook-static"
   },
   "devDependencies": {
-    "@nuxtjs/color-mode": "^3.2.0",
-    "@nuxtjs/supabase": "^1.1.5",
-    "@nuxtjs/tailwindcss": "^6.6.7",
+    "@nuxtjs/supabase": "^1.1.6",
+    "@nuxtjs/tailwindcss": "^6.11.4",
     "@storybook/addon-essentials": "^7.0.7",
     "@storybook/addon-interactions": "^7.0.7",
     "@storybook/addon-links": "^7.0.7",
@@ -23,8 +22,8 @@
     "@storybook/testing-library": "^0.1.0",
     "@storybook/vue3": "^7.0.7",
     "@storybook/vue3-vite": "^7.0.7",
-    "@vueuse/nuxt": "^10.1.0",
-    "nuxt": "^3.4.2",
+    "@vueuse/nuxt": "^10.7.2",
+    "nuxt": "^3.10.2",
     "nuxt-lodash": "^2.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -36,9 +35,11 @@
   "name": "my-nuxt-starter",
   "version": "0.0.0",
   "dependencies": {
-    "@formkit/nuxt": "^0.17.2",
-    "@formkit/themes": "^0.17.2",
+    "@formkit/icons": "^1.5.9",
+    "@formkit/nuxt": "^1.5.9",
+    "@formkit/themes": "^1.5.9",
     "@headlessui/vue": "^1.7.14",
+    "@supabase/supabase-js": "^2.39.6",
     "gsap": "^3.11.5",
     "nuxt-icons": "^3.2.1"
   }
